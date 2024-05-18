@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="stylesheet" href="/css/styles.css">
+<meta charset="UTF-8">
+<title>Formularios</title>
+</head>
+<body>
+<header>
+<h1></h1>
+<nav>
+	<ul>
+				<li><a href="index">Introducción</a></li>
+                <li><a href="index">Herramientas</a></li>
+                <li><a href="index">Diferencias</a></li>
+	</ul>
+</nav>
+</header>
+<main>
+<h1>Formulario</h1>
+<form>
+	<label for="dni">DNI</label>
+	<input type="number" id="dni" required placeholder="ingrese el dni (Numerico)">
+	<label for="nombre">Nombres</label>
+	<input type="text" id="nombre" required placeholder="Ingrese su/s nombre/s"></input><br>
+	<label for="apellido">Apellidos</label>
+	<input type="text" id="apellido" required placeholder="Ingrese su/s apellido/s"></input><br>
+	<label for="fecha">Fecha de nacimiento</label>
+	<input type="date" id="fecha" required placeholder="ingrese su fecha de nacimiento"></input><br>
+	 <label>Género:</label>
+	 <label for="femenino">Femenino</label>
+        <input type="radio" id="femenino" name="genero" value="femenino" required></input><br>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino" name="genero" value="masculino" required></input><br>
+        <label for="x">X</label>
+        <input type="radio" id="x" name="genero" value="x" required></input><br>
+    <label for="email">Correo electronico</label>
+    <input type="email" id="email" name="email" required placeholder="Ingrese su correo electronico"></input><br>
+	<label for="domicilio">Domicilio</label>
+    <input type="text" id="domicilio" name="domicilio" required placeholder="Ingrese su domicilio"></input><br>
+    <label for="provincia">Provincia</label>
+        <select id="provincia" name="provincia" required>
+            <option value="">Seleccione una provincia</option>
+              <option value="Catamarca">Catamarca</option>
+              		<option value="Buenos Aires" >Buenos Aires</option>
+		            <option value="Chaco">Chaco</option>
+		            <option value="Chubut">Chubut</option>
+		            <option value="Ciudad Autónoma de Buenos Aires">Ciudad Autónoma de Buenos Aires</option>
+		            <option value="Córdoba">Córdoba</option>
+		            <option value="Corrientes">Corrientes</option>
+		            <option value="Entre Ríos">Entre Ríos</option>
+		            <option value="Formosa">Formosa</option>
+		            <option value="Jujuy">Jujuy</option>
+		            <option value="La Pampa">La Pampa</option>
+		            <option value="La Rioja">La Rioja</option>
+		            <option value="Mendoza">Mendoza</option>
+		            <option value="Misiones">Misiones</option>
+		            <option value="Neuquén">Neuquén</option>
+		            <option value="Río Negro">Río Negro</option>
+		            <option value="Salta">Salta</option>
+		            <option value="San Juan">San Juan</option>
+		            <option value="San Luis">San Luis</option>
+		            <option value="Santa Cruz">Santa Cruz</option>
+		            <option value="Santa Fe">Santa Fe</option>
+		            <option value="Santiago del Estero">Santiago del Estero</option>
+		            <option value="Tierra del Fuego">Tierra del Fuego</option>
+		            <option value="Tucumán">Tucumán</option>
+        </select>
+	<label for="celular">Telefono celular</label>
+	<input id="celular" type="tel" required placeholder="Ingrese su numero telefonico" name="celular"></input><br>	
+	<label>Categorías de Interés</label>
+	<label for="categoria1">Categoría 1</label>
+        <input type="checkbox" id="categoria1" name="categoria" value="categoria1"></input><br>
+         <label for="categoria2">Categoría 2</label>
+        <input type="checkbox" id="categoria2" name="categoria" value="categoria2"></input><br>
+        <label for="categoria3">Categoría 3</label>
+        <input type="checkbox" id="categoria3" name="categoria" value="categoria3"></input><br>
+        
+		 <label for="sugerencias">Sugerencias para la Empresa</label><br>
+        <textarea id="sugerencias" name="sugerencias" rows="4" cols="50"></textarea><br>
+        <input type="checkbox" id="acepto_terminos" name="acepto_terminos" required>
+        <label for="acepto_terminos">Acepto los términos y condiciones</label><br>
+
+        <input type="checkbox" id="acepto_informacion" name="acepto_informacion">
+        <label for="acepto_informacion">Acepto recibir información relativa a la empresa</label><br>
+        
+		
+	<input type="button" value="Cancelar"></input><br>
+	<input type="submit" value="Guardar"></input><br>
+</form>
+</main>
+<footer class="footer">
+<p>Contacto: virtual@unju.edu.ar</p>
+<p>Redes Sociales</p>
+		<a href="https://github.com/gustso">Github</a>
+</footer>
+</body>
+</html>
