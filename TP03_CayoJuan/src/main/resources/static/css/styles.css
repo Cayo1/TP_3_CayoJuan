@@ -40,7 +40,7 @@ section {
 	float: left;
     margin-bottom: 3rem;
     background: #444;
-    width: 72%;
+    width: 72%; <!-- Para moverlo a la izquierda un poco es poniendo 72%-->
 }
 h1{
 	text-align: center;
